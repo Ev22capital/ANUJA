@@ -216,6 +216,15 @@
     border-bottom: 1px solid rgba(216,144,88,0.45); transition: border-color 0.25s ease; }
   .comm-contact a:hover { border-bottom-color: var(--accent); }
 
+  /* Subscribe button (Commentary page) */
+  .comm-subscribe { margin: 1.6rem auto 0; display: flex; flex-direction: column; align-items: center; gap: 0.55rem; }
+  .subscribe-btn { display: inline-block; background: var(--navy); color: var(--text-light); font-weight: 600;
+    font-size: 0.95rem; letter-spacing: 0.02em; padding: 0.72rem 2rem; border-radius: 999px;
+    text-decoration: none; transition: background 0.25s ease; }
+  .subscribe-btn:hover { background: var(--blue-deep); }
+  .subscribe-btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  .comm-subscribe .subscribe-note { font-size: 0.88rem; color: var(--text-dark); opacity: 0.7; }
+
 </style>
 </head>
 <body>
@@ -290,7 +299,18 @@
     <p class="kicker">Commentary</p>
     <p class="comm-contact">For any queries, please contact <a href="mailto:info@ev22cap.com">info@ev22cap.com</a></p>
 
+    <div class="comm-subscribe">
+      <a class="subscribe-btn" href="mailto:info@ev22cap.com?subject=Subscribe%20to%20EV22%20Capital%20commentary&amp;body=Please%20add%20me%20to%20the%20EV22%20Capital%20commentary%20mailing%20list.%0D%0A%0D%0AName%3A%20%0D%0AOrganisation%3A%20">Subscribe</a>
+      <p class="subscribe-note">Get new commentary by email.</p>
+    </div>
+
     <div class="comm-list">
+
+      <a class="comm-card" href="https://www.ev22cap.com/japan-governance-reset-September_2026.pdf" target="_blank" rel="noopener">
+        <span class="date">September 2026</span>
+        <h3>Japan&rsquo;s governance reform has reshaped and how investors should react</h3>
+        <p>Between late June and the end of July, three ministries and the TSE redrew the terms of engagement for investors in Japan. We map what changed, why payout campaigns are now the weakest demand, and how a quieter MoJ draft would limit shareholder proposals.</p>
+      </a>
 
         <a class="comm-card" href="https://www.ev22cap.com/suspending-the-vote-what-the-numbers-show.pdf" target="_blank" rel="noopener">
         <span class="date">August 2026</span>
